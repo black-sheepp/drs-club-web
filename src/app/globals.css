@@ -12,6 +12,12 @@ body {
   background-color: black;
 }
 
+/* logo-dc */
+.logo-dc{
+  width: 55px;
+  height: 55px;
+}
+
 
 /* Navbar */
 a {

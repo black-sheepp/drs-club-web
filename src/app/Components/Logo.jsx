@@ -7,7 +7,7 @@ const Logo = () => {
         <Image
             className='logo-dc'
             src="/../public/logo.jpg"
-            alt="Picture of a triangle"
+            alt="Doctors Club Logo"
             width={55}
             height={55}
         />
