@@ -6,7 +6,7 @@ const Logo = () => {
     <div>
         <Image
             className='logo-dc'
-            src="/../public/logo.png"
+            src="/../public/logo.jpg"
             alt="Picture of a triangle"
             width={55}
             height={55}
