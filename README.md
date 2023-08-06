@@ -32,3 +32,62 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+
+
+<!-- Cardiovascular Area: -->
+
+Treadmills
+Elliptical trainers
+Stationary bikes
+Rowing machines
+Stair climbers
+
+<!-- Strength Training Zone: -->
+
+Free weights (dumbbells, barbells)
+Weight machines (chest press, leg press, etc.)
+Power racks and squat racks
+Cable machines
+Smith machines
+
+<!-- Group Fitness Studios: -->
+
+Yoga studio
+Spinning/cycling studio
+Aerobics/dance studio
+Martial arts or boxing area
+
+<!-- Functional Training Area: -->
+
+TRX suspension trainers
+Kettlebells
+Medicine balls
+Battle ropes
+Plyometric boxes
+
+<!-- Locker Rooms: -->
+
+Showers
+Changing stalls
+Vanity areas
+Grooming stations
+
+<!-- Café or Juice Bar: -->
+
+Healthy snacks and beverages
+
+<!-- Technology and Entertainment: -->
+
+Cardio machines with TV screens
+Fitness tracking apps
+Music playlists
+
+<!-- Membership Benefits: -->
+
+Discounted rates for other local businesses
+Exclusive access to certain facilities or classes
