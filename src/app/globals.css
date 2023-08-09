@@ -585,6 +585,17 @@ a {
   margin-top: 5px;
 }
 
+@media (max-width: 1000px){
+  #schedule-section{
+    margin: 0;
+  }
+}
+@media (max-width: 1000px){
+  .timing-display{
+    padding-left: 0;
+  }
+}
+
 /* membership */
 
 .membership-section{
@@ -617,4 +628,29 @@ a {
 .horizontal-line{
   margin-left: 100px;
   margin-right: 100px;
+}
+
+
+@media (max-width: 1000px){
+  .membership-section{
+    margin: 0;
+  }
+}
+@media (max-width: 1000px){
+  .membership-table-heading{
+    font-size: 18px;
+    margin: 5px 10px;
+  }
+}
+@media (max-width: 1000px){
+  .membership-table-data{
+    font-size: 18px;
+    margin: 5px 10px;
+  }
+}
+
+@media (max-width: 1000px){
+  .horizontal-line{
+    margin: 0;
+  }
 }
