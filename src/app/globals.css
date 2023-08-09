@@ -376,18 +376,28 @@ a {
   top: 0;
   transform-origin: center;
   transform: scale(1) translateZ(0);
-  transition: 
-    filter 200ms linear,
-    transform 200ms linear;
+  transition:     filter 200ms linear,    transform 200ms linear;
+  -webkit-filter: brightness(0.75) saturate(1.2) contrast(0.85);
 }
 
 .card:hover .card__background{
   transform: scale(1.05) translateZ(0);
+  -webkit-transform: scale(1.05) translateZ(0);
+  -moz-transform: scale(1.05) translateZ(0);
+  -ms-transform: scale(1.05) translateZ(0);
+  -o-transform: scale(1.05) translateZ(0);
 }
 
 .card-grid:hover > .card:not(:hover) .card__background{
   filter: brightness(0.5) saturate(0) contrast(1.2) blur(10px);
   -webkit-filter: brightness(0.5) saturate(0) contrast(1.2) blur(10px);
+}
+
+@media only screen and (max-width: 800px){
+  .card-grid:hover > .card:not(:hover) .card__background{
+    /* filter: brightness(0.5) saturate(0) contrast(1.2) blur(10px);
+    -webkit-filter: brightness(0.5) saturate(0) contrast(1.2) blur(10px); */
+  }
 }
 
 .card__content{
@@ -499,6 +509,12 @@ a {
   }
 }
 
+@media (max-width: 1000px){
+  .contact-options{
+    width: 100%;
+  }
+}
+
 /* about-us-section */
 .about-us-section{
   max-width: 77%;
@@ -519,4 +535,86 @@ a {
 
 .about-us-section small{
   color: grey;
+}
+
+
+/* schedule and shifts  */
+
+#schedule-section, .membership-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 250px;
+}
+
+.schedule-heading, .membership-heading{
+  text-align: center;
+  color: red;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.shift{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.shift-heading{
+  font-size: 20px;
+}
+
+.shift-timing{
+  padding: 20px 0px;
+}
+
+.lng-head{
+  color: red;
+  margin: 5px 0;
+}
+
+.lo-head{
+  color: red;
+  margin: 5px 0;
+}
+
+.timing-display{
+  color: grey;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+/* membership */
+
+.membership-section{
+  text-align: center;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.membership-table-heading{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 5px 180px;
+}
+
+.membership-table-data{
+  display: flex;
+  justify-content:space-between;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 15px 180px;
+  text-align: left;
+}
+
+.membership-table-data>p{
+  color: grey !important;
+}
+
+.horizontal-line{
+  margin-left: 100px;
+  margin-right: 100px;
 }

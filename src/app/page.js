@@ -7,6 +7,8 @@ import Contact from './Components/Contact'
 import "@fortawesome/fontawesome-svg-core/styles.css"; 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import AboutUs from './Components/AboutUs'
+import Schedule from './Components/Schedule'
+import Membership from './Components/Membership'
 config.autoAddCss = false; 
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
     <Nav/>
     <Cover/>
     <Facility/>
+    <Membership/>
+    <Schedule/>
     <Contact/>
     <AboutUs/>
     </>

@@ -2,11 +2,11 @@ import React from "react";
 
 const Facility = () => {
      return (
-          <div className='facility-section' id="facility-section">
+          <div className='facility-section' id='facility-section'>
                <div className='facilities-heading'>Facilities</div>
                <section className='hero-section'>
                     <div className='card-grid'>
-                         <a className='card' href='#'>
+                         <a className='card' href=''>
                               <div
                                    className='card__background'
                                    style={{
@@ -19,7 +19,7 @@ const Facility = () => {
                                    <h3 className='card__heading'>Cardiovascular Area</h3>
                               </div>
                          </a>
-                         <a className='card' href='#'>
+                         <a className='card' href=''>
                               <div
                                    className='card__background'
                                    style={{
@@ -32,7 +32,7 @@ const Facility = () => {
                                    <h3 className='card__heading'>Strength Training Zone</h3>
                               </div>
                          </a>
-                         <a className='card' href='#'>
+                         <a className='card' href=''>
                               <div
                                    className='card__background'
                                    style={{
@@ -45,7 +45,7 @@ const Facility = () => {
                                    <h3 className='card__heading'>Group Fitness Studios</h3>
                               </div>
                          </a>
-                         <a className='card' href='#'>
+                         <a className='card' href=''>
                               <div
                                    className='card__background'
                                    style={{
@@ -58,7 +58,7 @@ const Facility = () => {
                                    <h3 className='card__heading'>Functional Training Area</h3>
                               </div>
                          </a>
-                         <a className='card' href='#'>
+                         <a className='card' href=''>
                               <div
                                    className='card__background'
                                    style={{
@@ -71,7 +71,7 @@ const Facility = () => {
                                    <h3 className='card__heading'>Locker Rooms</h3>
                               </div>
                          </a>
-                         <a className='card' href='#'>
+                         <a className='card' href=''>
                               <div
                                    className='card__background'
                                    style={{
@@ -84,7 +84,7 @@ const Facility = () => {
                                    <h3 className='card__heading'>Café or Juice Bar</h3>
                               </div>
                          </a>
-                         <a className='card' href='#'>
+                         <a className='card' href=''>
                               <div
                                    className='card__background'
                                    style={{
@@ -97,7 +97,7 @@ const Facility = () => {
                                    <h3 className='card__heading'>Technology and Entertainment</h3>
                               </div>
                          </a>
-                         <a className='card' href='#'>
+                         <a className='card' href=''>
                               <div
                                    className='card__background'
                                    style={{

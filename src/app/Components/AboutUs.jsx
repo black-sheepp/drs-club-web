@@ -24,7 +24,7 @@ const AboutUs = () => {
                     story.
                </p>
                <p>Elevate your fitness journey with us.</p>
-               <p><strong style={{color:"red"}}>Contact us:</strong> &nbsp; +977-7863234673 <small>(Whats App/Phone)</small></p>
+               <p><strong style={{color:"red"}}>Contact us:</strong> &nbsp; +977-9845262603 <small>(Phone)</small></p>
                
           </div>
      );

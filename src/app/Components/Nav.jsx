@@ -25,12 +25,12 @@ const Nav = () => {
                                         </a>
                                    </li>
                                    <li className='navbar-dropdown'>
-                                        <a href='#' className='dropdown-toggler' data-dropdown='blog'>
+                                        <a href='#membership-section' className='dropdown-toggler' data-dropdown='blog'>
                                              Membership <i className='fa fa-angle-down' />
                                         </a>
                                    </li>
                                    <li>
-                                        <a href='#'>Schedule</a>
+                                        <a href='#schedule-section' >Schedule</a>
                                    </li>
                                    <li>
                                         <a href='#contact-heading'>Contact</a>

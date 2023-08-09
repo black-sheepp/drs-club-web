@@ -22,7 +22,7 @@ const Contact = () => {
                          <div className='contact-number'>
                               <div className='whats-app-contact'>
                               <FaWhatsappSquare/> &nbsp;
-                              <p>+977-87872376324</p>
+                              <p>+977-9803813450</p>
                               </div>
                          </div>
                          <div className='contact-social'>
@@ -30,12 +30,12 @@ const Contact = () => {
                          <CiFacebook/>
                          <AiOutlineYoutube/> */}
                          <MdOutlineAlternateEmail/> &nbsp;
-                        <p className="email-id">doctorsclub@gmail.com</p>
+                        <p className="email-id">dr.club035@gmail.com</p>
                          </div>
                          <div className='contact-address'>
                             <h3 style={{color:"red"}}>Address: </h3>
-                              <p style={{ fontSize: "17px" }}>#000 Mini Bypass Road, Azhar Alam</p>
-                              <h4 style={{ fontSize: "20px" }}>Birgunj, Parsa-44300, Nepal</h4>
+                              <p style={{ fontSize: "17px" }}>Dr Zaffar Alam, Amar Chowk, Jail Road</p>
+                              <h4 style={{ fontSize: "20px" }}>Birgunj-5, Parsa, Nepal</h4>
                          </div>
                     </section>
                </div>
